@@ -1,0 +1,63 @@
+/* Login Styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom, #45647b, #cfd8dc);
+  color: #333;
+}
+
+.login-container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.2);
+  width: 350px;
+  height: 500px;            /* Agrega altura */
+  overflow: auto;           /* Para evitar que se expanda si el contenido es mayor */
+  text-align: center;
+}
+
+.logo {
+  width: 70%;
+  margin-bottom: 1rem;
+  padding: 3rem;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  border: 1px solid #999;
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  margin-bottom: 2rem;
+}
+
+.input-group .icon {
+  color: #b336ec;
+  margin-right: 10px;
+}
+
+.input-group input {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+.login-btn {
+  background: #b336ec;
+  border: none;
+  color: white;
+  padding: 0.8rem 1.2rem;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+}

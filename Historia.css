@@ -1,0 +1,38 @@
+.historial-page {
+  position: relative;
+  min-height: 100vh;
+  padding-top: 60px;
+  background-color: #fff;
+}
+
+.content {
+  padding: 1.2rem;
+  background-color: #acacac;
+  text-align: left;
+  font-size: 1.2rem;
+}
+
+.historial-box {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+.transaccion-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.08);
+}
+
+.transaccion-card .icono {
+  font-size: 1.5rem;
+  color: #2c677c;
+}

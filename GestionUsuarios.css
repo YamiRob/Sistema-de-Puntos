@@ -1,0 +1,227 @@
+
+.usuAdm {
+  position: relative;
+  min-height: 100vh;
+  padding-top: 60px;
+  background-color: #fff;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 60px;
+  background: #78909c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+.logo-small {
+  height: 60px;
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.logout-btn {
+  background-color: #78909c;
+  color: white; 
+  border: none;
+  padding: 0.5rem 0.8rem;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+  margin-right: 25px;
+}
+
+.logout-btn:hover {
+  background-color: #9e9e9e;
+}
+
+.back-btn {
+  background-color: #78909c;
+  color: white; 
+  border: none;
+  padding: 0.5rem 0.8rem;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+  margin-right: 25px;
+}
+
+.back-btn:hover {
+  background-color: #9e9e9e;
+}
+
+.gestion-title {
+  padding: 1.2rem;
+  background-color: #acacac;
+  text-align: left;
+  font-size: 1.2rem;
+}
+
+.busqueda-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 25px;
+  background-color: #fff;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 6px 10px;
+  border-radius: 20px;
+  background-color: #f9f9f9;
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.search-box input {
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  background: transparent;
+  width: 100%;
+}
+
+.crear-btnUse {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 20px;
+  gap: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.lista-usuarios {
+  background: white;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.icon-title {
+  margin-right: 8px;
+}
+
+.usuario-card {
+  display: flex;
+  align-items: center;
+  background: #dcdcdc;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 25px;
+  justify-content: space-between;
+}
+
+.info-usuario {
+  flex: 2;
+}
+
+.rol {
+  flex: 1;
+  text-align: center;
+  font-weight: bold;
+}
+
+.estado {
+  flex: 1;
+  background-color: #1e90ff;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.editar-btn {
+  background-color: #eee;
+  border: none;
+  padding: 6px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+/* Modal para crear/editar usuario */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px 25px;
+  border-radius: 16px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.modal-content input,
+.modal-content select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-buttons button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.modal-buttons button:first-child {
+  background-color: #28a745;
+  color: white;
+}
+
+.modal-buttons button:last-child {
+  background-color: #dc3545;
+  color: white;
+}
+
+/* Grupo de acciones (editar + eliminar) */
+.acciones {
+  display: flex;
+  gap: 6px;
+}
+
+.acciones button {
+  background-color: #eee;
+  border: none;
+  padding: 6px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+

@@ -1,0 +1,123 @@
+.notidash {
+  position: relative;
+  min-height: 100vh;
+  padding-top: 60px;
+  background-color: #fff;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 60px;
+  background: #78909c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+
+.logo-small {
+  height: 60px;
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile-icon {
+  font-size: 1.5rem;
+}
+
+.logout-btn {
+  background-color: #78909c;
+  color: white; 
+  border: none;
+  padding: 0.5rem 0.8rem;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+  margin-right: 25px;
+}
+
+.logout-btn:hover {
+  background-color: #9e9e9e;
+}
+
+.menu-toggle {
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+.contentNot{
+  padding: 1.2rem;
+  background-color: #acacac;
+  text-align: left;
+  font-size: 1.2rem;
+}
+
+.back-btn {
+  background-color: #78909c;
+  color: white; 
+  border: none;
+  padding: 0.5rem 0.8rem;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+  margin-right: 25px;
+}
+
+.back-btn:hover {
+  background-color: #9e9e9e;
+}
+
+.noti-section {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.noti-section h3 {
+  font-size: 20px;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.noti-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: #fff;
+  box-shadow: 1px 2px 5px rgba(0,0,0,0.05);
+}
+
+.noti-icon {
+  font-size: 22px;
+  color: #555;
+  margin-top: 4px;
+}
+
+.noti-card strong {
+  display: block;
+  font-size: 16px;
+  color: #222;
+}
+
+.noti-card p {
+  margin: 0;
+  color: #555;
+}
